@@ -10,8 +10,8 @@ background.click;
 
 function changeBack() {
     console.log("starting: "+ background.src);
-    if (background.src == "http://127.0.0.1:5500/Background%20Placeholder.png"){
-        background.src = "http://127.0.0.1:5500/garf.jpg";
+    if (background.src == "https://dinospore.com/Background%20Placeholder.png"){
+        background.src = "https://dinospore.com/garf.jpg";
         console.log("the 'bckgrn' ran > "+background.src);
 
 
