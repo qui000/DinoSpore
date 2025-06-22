@@ -1,23 +1,27 @@
 let background = document.getElementById("background");
-let click = addEventListener("click",changeBack);
+let character = document.getElementById("character");
+let commandsInv = document.getElementById("commands&inv");
+let descrip = document.getElementById("descriptionBox");
+let commandBox = document.getElementById("commandBox");
 
+console.log("the file ran")
 
-//document.getElementById("background").addEventListener("click", changeBack);
+function commandRecieved(){
+    playerInput = document.forms[0].playerInput.value
+    console.log("the function ran");
+    console.log(playerInput);
 
-background.click;
-
-
-
-function changeBack() {
-    console.log("starting: "+ background.src);
-    if (background.src == "https://dinospore.com/Background%20Placeholder.png"){
-        background.src = "https://dinospore.com/garf.jpg";
-        console.log("the 'bckgrn' ran > "+background.src);
+    if(playerInput == "move north"){
+        console.log('check ran')
+        background.src = "dinospore\garf.jpg";
 
 
     }
-    console.log("ending: "+ background.src);
-    
-    
+
 
 }
+// "http://127.0.0.1:5500/Background%20Placeholder.png"
+//document.getElementById("background").addEventListener("click", changeBack);
+
+
+
