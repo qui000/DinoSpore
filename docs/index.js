@@ -13,7 +13,7 @@ function commandRecieved(){
 
     if(playerInput == "move north"){
         console.log('check ran')
-        background.src = "dinospore.com\garf.jpg";
+        background.src = "https://dinospore.com/garf.jpg";
 
 
     }
